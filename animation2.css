@@ -1,9 +1,9 @@
 div {width: 100px;
     height: 100px;
-    background: darkcyan;
+    background: cyan;
     position: absolute;
     animation-name: move-box;
-    animation-duration: 5s;
+    animation-duration: 7s;
     animation-iteration-count: infinite;
     
 }
@@ -22,7 +22,7 @@ div {width: 100px;
     background: rgb(65, 160, 52);
     position: absolute;
     animation-name: move-lille;
-    animation-duration: 5s;
+    animation-duration: 7s;
     animation-iteration-count: infinite;
 }
 
