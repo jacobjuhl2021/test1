@@ -1,0 +1,36 @@
+div {width: 100px;
+    height: 100px;
+    background: darkcyan;
+    position: absolute;
+    animation-name: move-box;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    
+}
+
+@keyframes move-box {
+    0%   {transform: translateX(0px) translateY(0px); background: red;}
+    25%  {transform: translateX(400px) translateY(0px); background: blue;}
+    50%  {transform: translateX(400px) translateY(400px); background: yellow;}
+    75%  {transform: translateX(0px) translateY(400px); background: green;}
+    100% {transform: translateX(0px) translateY(0px); background: red;}
+  
+}
+
+.lille {width: 100px;
+    height: 100px;
+    background: rgb(65, 160, 52);
+    position: absolute;
+    animation-name: move-lille;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes move-lille {
+    0%   {transform: translateX(400px) translateY(400px); background: red;}
+    25%  {transform: translateX(0px) translateY(400px); background: blue;}
+    50%  {transform: translateX(0px) translateY(0px); background: yellow;}
+    75%  {transform: translateX(400px) translateY(0px); background: green;}
+    100% {transform: translateX(400px) translateY(400px); background: red;}
+}
+
